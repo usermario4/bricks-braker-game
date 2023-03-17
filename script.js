@@ -18,8 +18,8 @@ function setup() {
   createCanvas(400, 400);
 }
 
-function draw() {
-  background("#00ff0f");
+function draw(){
+    background("#00F6FE")
 
   //verificare limmita Top S1
   if (moveS1Y < limitTop+ rayS1) {
@@ -88,6 +88,16 @@ line(230, 200, 170,200)
     circle(175,180,10)
     fill("#ffffff")
     line(227,210,230,200)
+<<<<<<< HEAD
 }
 
   
+=======
+    
+    
+   
+
+   
+   
+}
+>>>>>>> 65c36ce (comitus)
