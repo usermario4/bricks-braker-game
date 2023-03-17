@@ -3,9 +3,12 @@ function setup(){
 }
 
 function draw(){
+
     background("#00F6FE")
 
     smileyFacerSebi();
+    smileyFaceMario();
+
 }
 
 function  smileyFacerSebi(){
@@ -27,10 +30,28 @@ line(230, 200, 170,200)
     circle(175,180,10)
     fill("#ffffff")
     line(227,210,230,200)
-    
-    
-   
+}
 
-   
-   
+function smileyFaceMario(){
+    //skin
+    fill("#fff000");
+    circle(200,200,100);
+
+    //one eye 
+    fill("#000000");
+    circle(200,180,30);
+
+   //pupil
+   fill("#ffffff");
+   circle(200,180,25);
+   //pupil 2
+   fill("#000000");
+   circle(200,180,10);
+     
+    //mouth
+    fill("#ffffff");
+    arc(200,220,60,20,0,Math.PI);
+    
+
+
 }
