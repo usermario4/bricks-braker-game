@@ -3,6 +3,13 @@ function setup(){
 }
 
 function draw(){
-    background("#ff0000")
+    background("#00ff00")
 
+smileyFaceMario();
+
+}
+
+function smileyFaceMario(){
+
+    circle(200,250,100)
 }
