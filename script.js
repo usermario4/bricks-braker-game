@@ -14,17 +14,13 @@ function smileyFaceMario(){
     fill("#fff000");
     circle(200,200,100);
 
-    //right eye
-    circle(220,180,20);
-
-    //left eye
-    circle(180,180,20);
-    //pupil right
+    //one eye 
     fill("#000000");
-    circle(220,180,10);
-     //pupil left
-     fill("#000000");
-     circle(180,180,10);
+    circle(200,180,30);
+
+   //pupil
+   fill("#ffffff");
+   circle(200,180,25);
      
     //mouth
     fill("#ffffff");
