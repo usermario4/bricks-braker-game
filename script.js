@@ -21,6 +21,9 @@ function smileyFaceMario(){
    //pupil
    fill("#ffffff");
    circle(200,180,25);
+   //pupil 2
+   fill("#000000");
+   circle(200,180,10);
      
     //mouth
     fill("#ffffff");
