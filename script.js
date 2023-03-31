@@ -42,7 +42,7 @@ function draw() {
   moveS1Y += sensS1Y*speedS1;
 
 smileyFaceMario(moveS1X,moveS1Y,rayS1*2);
-
+smileyFacerSebi();
 }
 
 function smileyFaceMario(x,y,d){
