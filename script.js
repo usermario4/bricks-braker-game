@@ -12,7 +12,7 @@ SmileyFaceMario.sensY = sensSmileFaceCheckY(SmileyFaceMario.Y, SmileyFaceMario.r
 
 
 
-smileyFaceMarioSmiley(SmileyFaceMario.X,SmileyFaceMario.Y,SmileyFaceMario.ray*2);
+smileyFaceMario(SmileyFaceMario.X,SmileyFaceMario.Y,SmileyFaceMario.ray*2);
 
 
 SmileyFacerSebi.sensX = sensSmileFaceCheckX(SmileyFacerSebi.x, SmileyFacerSebi.ray, SmileyFacerSebi.sensX);
