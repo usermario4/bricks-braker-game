@@ -25,6 +25,7 @@ function draw() {
   smileyFacerSebi(SmileyFacerSebi.x, SmileyFacerSebi.y, SmileyFacerSebi.ray * 2);
 
   bottomBar();
+  showBricks();
 
 }
 
