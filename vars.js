@@ -18,10 +18,6 @@ const SmileyFacerSebi = {
     sensY: 1,
 }
 
-
-
-
-
 let limitTop = 0;
 let limitBottom = 600;
 let limitLeft = 0;
