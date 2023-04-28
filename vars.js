@@ -21,16 +21,6 @@ const SmileyFacerSebi = {
 
 
 
-let moveS2X = 300;
-let moveS2Y = 200;
-
-
-let sensS2X = 1;
-let sensS2Y = 1;
-
-
-let speedS2 = 6;//viteza
-rayS2 = 60;
 
 let limitTop = 0;
 let limitBottom = 600;
