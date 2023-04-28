@@ -1,27 +1,28 @@
 
 function setup() {
-  createCanvas(600, 600);
+    createCanvas(600, 600);
 }
-function draw(){
+
+function draw() {
     background("#00F6FE")
 
+    SmileyFaceMario.sensX = sensSmileFaceCheckX(SmileyFaceMario.x, SmileyFaceMario.ray, SmileyFaceMario.sensX);
+    SmileyFaceMario.sensY = sensSmileFaceCheckY(SmileyFaceMario.y, SmileyFaceMario.ray, SmileyFaceMario.sensY);
 
+    console.log(SmileyFaceMario.sensY);
 
-SmileyFaceMario.sensX = sensSmileFaceCheckX(SmileyFaceMario.X, SmileyFaceMario.ray, SmileyFaceMario.X);
-SmileyFaceMario.sensY = sensSmileFaceCheckY(SmileyFaceMario.Y, SmileyFaceMario.ray, SmileyFaceMario.Y);
+    SmileyFaceMario.x += SmileyFaceMario.sensX * SmileyFaceMario.speed;
+    SmileyFaceMario.y += SmileyFaceMario.sensY * SmileyFaceMario.speed;
 
+    smileyFaceMario(SmileyFaceMario.x, SmileyFaceMario.y, SmileyFaceMario.ray * 2);
 
+    SmileyFacerSebi.sensX = sensSmileFaceCheckX(SmileyFacerSebi.x, SmileyFacerSebi.ray, SmileyFacerSebi.sensX);
+    SmileyFacerSebi.sensY = sensSmileFaceCheckY(SmileyFacerSebi.y, SmileyFacerSebi.ray, SmileyFacerSebi.sensY);
 
-smileyFaceMario(SmileyFaceMario.X,SmileyFaceMario.Y,SmileyFaceMario.ray*2);
+    SmileyFacerSebi.x += SmileyFacerSebi.sensX * SmileyFacerSebi.speed;
+    SmileyFacerSebi.y += SmileyFacerSebi.sensY * SmileyFacerSebi.speed;
 
-
-SmileyFacerSebi.sensX = sensSmileFaceCheckX(SmileyFacerSebi.x, SmileyFacerSebi.ray, SmileyFacerSebi.sensX);
-SmileyFacerSebi.sensY = sensSmileFaceCheckY(SmileyFacerSebi.y, SmileyFacerSebi.ray, SmileyFacerSebi.sensY);
-
-SmileyFacerSebi.x += SmileyFacerSebi.sensX*SmileyFacerSebi.speed;
-SmileyFacerSebi.y += SmileyFacerSebi.sensY*SmileyFacerSebi.speed;
-
-smileyFacerSebi(SmileyFacerSebi.X,SmileyFacerSebi.Y,SmileyFacerSebi.ray*2);
+    smileyFacerSebi(SmileyFacerSebi.X, SmileyFacerSebi.Y, SmileyFacerSebi.ray * 2);
 
 }
 

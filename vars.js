@@ -6,7 +6,6 @@ const SmileyFaceMario = {
     ray: 15,
     sensX: 1,
     sensY: 1,
-
 }
 
 const SmileyFacerSebi = {
