@@ -1,3 +1,14 @@
+const smileyFaceMario={
+x:200
+y:100,
+speed:2,
+ray:15
+sensX:1,
+sensY:1,
+
+}
+
+
 
 const smileyFacerSebi = {
     X:200,
