@@ -7,13 +7,12 @@ function draw(){
 
 
 
-sensS1X = sensSmileFaceCheckX(moveS1X, rayS1, sensS1X);
-sensS1Y = sensSmileFaceCheckY(moveS1Y, rayS1, sensS1Y);
+SmileyFaceMario.sensX = sensSmileFaceCheckX(SmileyFaceMario.X, SmileyFaceMario.ray, SmileyFaceMario.X);
+SmileyFaceMario.sensY = sensSmileFaceCheckY(SmileyFaceMario.Y, SmileyFaceMario.ray, SmileyFaceMario.Y);
 
-moveS1X += sensS1X*speedS1;
-moveS1Y += sensS1Y*speedS1;
 
-smileyFaceMario(moveS1X,moveS1Y,rayS1*2);
+
+smileyFaceMarioSmiley(SmileyFaceMario.X,SmileyFaceMario.Y,SmileyFaceMario.ray*2);
 
 
 smileyFacerSebi.sensX = sensSmileFaceCheckX(smileyFacerSebi.x, smileyFacerSebi.ray, smileyFacerSebi.sensX);
