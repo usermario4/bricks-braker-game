@@ -21,7 +21,7 @@ SmileyFacerSebi.sensY = sensSmileFaceCheckY(SmileyFacerSebi.y, SmileyFacerSebi.r
 SmileyFacerSebi.x += SmileyFacerSebi.sensX*SmileyFacerSebi.speed;
 SmileyFacerSebi.y += SmileyFacerSebi.sensY*SmileyFacerSebi.speed;
 
-SmileyFacerSebi(SmileyFacerSebi.X,SmileyFacerSebi.Y,SmileyFacerSebi.ray*2);
+smileyFacerSebi(SmileyFacerSebi.X,SmileyFacerSebi.Y,SmileyFacerSebi.ray*2);
 
 }
 
