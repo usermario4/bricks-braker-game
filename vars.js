@@ -11,7 +11,7 @@ const SmileyFaceMario = {
 const SmileyFacerSebi = {
     X: 200,
     y: 100,
-    speed: 2,
+    speed: 3,
     ray: 15,
     sensX: 1,
     sensY: 1,
