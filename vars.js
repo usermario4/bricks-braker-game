@@ -1,3 +1,8 @@
+let bricks=[];
+
+
+
+
 
 const SmileyFaceMario = {
     x: 200,
@@ -21,3 +26,10 @@ let limitTop = 0;
 let limitBottom = 600;
 let limitLeft = 0;
 let limitRight = 600;
+
+const BottomBar={
+    color:"#121212",
+    width:80,
+    height:15,
+    bottomYPosition:550,
+}

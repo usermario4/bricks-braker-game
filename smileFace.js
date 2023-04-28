@@ -1,12 +1,13 @@
-function sensSmileFaceCheckY(y, r, s) {
+function sensSmileFaceCheckY(y, r, sensInitial) {
   //verificare limmita Top S1
   if (y < limitTop + r) {
     return 1; //schimbare de sens
   }
   //verificare limmita Bottom S1
-  if (y > limitBottom - r) {
-    return -1; //schimbare de sens
-  } return s;
+ // if (y > limitBottom - r) {
+   // return -1; //schimbare de sens
+  //} return s;
+  return sensInitial;
 }
 function sensSmileFaceCheckX(x, r, s) {
   //verificare limmita Left S1
