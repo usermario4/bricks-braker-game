@@ -5,11 +5,11 @@ function setup() {
 function draw(){
     background("#00F6FE")
 
-smileyFacerSebi.X = sensSmileFaceCheckX(smileyFacerSebi.x, smileyFacerSebi.ray, smileyFacerSebi.X);
-smileyFacerSebi.Y = sensSmileFaceCheckX(smileyFacerSebi.y, smileyFacerSebi.ray, smileyFacerSebi.Y);
+smileyFacerSebi.sensX = sensSmileFaceCheckX(smileyFacerSebi.x, smileyFacerSebi.ray, smileyFacerSebi.sensX);
+smileyFacerSebi.sensY = sensSmileFaceCheckY(smileyFacerSebi.y, smileyFacerSebi.ray, smileyFacerSebi.sensY);
 
 sensS1X = sensSmileFaceCheckX(moveS1X, rayS1, sensS1X);
-sensS1Y = sensSmileFaceCheckX(moveS1Y, rayS1, sensS1Y);
+sensS1Y = sensSmileFaceCheckY(moveS1Y, rayS1, sensS1Y);
 
   moveS1X += sensS1X*speedS1;
   moveS1Y += sensS1Y*speedS1;
