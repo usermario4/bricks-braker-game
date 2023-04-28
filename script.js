@@ -15,13 +15,13 @@ SmileyFaceMario.sensY = sensSmileFaceCheckY(SmileyFaceMario.Y, SmileyFaceMario.r
 smileyFaceMarioSmiley(SmileyFaceMario.X,SmileyFaceMario.Y,SmileyFaceMario.ray*2);
 
 
-smileyFacerSebi.sensX = sensSmileFaceCheckX(smileyFacerSebi.x, smileyFacerSebi.ray, smileyFacerSebi.sensX);
-smileyFacerSebi.sensY = sensSmileFaceCheckY(smileyFacerSebi.y, smileyFacerSebi.ray, smileyFacerSebi.sensY);
+SmileyFacerSebi.sensX = sensSmileFaceCheckX(SmileyFacerSebi.x, SmileyFacerSebi.ray, SmileyFacerSebi.sensX);
+SmileyFacerSebi.sensY = sensSmileFaceCheckY(SmileyFacerSebi.y, SmileyFacerSebi.ray, SmileyFacerSebi.sensY);
 
-smileyFacerSebi.x += smileyFacerSebi.sensX*smileyFacerSebi.speed;
-smileyFacerSebi.y += smileyFacerSebi.sensY*smileyFacerSebi.speed;
+SmileyFacerSebi.x += SmileyFacerSebi.sensX*SmileyFacerSebi.speed;
+SmileyFacerSebi.y += SmileyFacerSebi.sensY*SmileyFacerSebi.speed;
 
-smileyFacerSebi(smileyFacerSebi.X,smileyFacerSebi.Y,smileyFacerSebi.ray*2);
+SmileyFacerSebi(SmileyFacerSebi.X,SmileyFacerSebi.Y,SmileyFacerSebi.ray*2);
 
 }
 

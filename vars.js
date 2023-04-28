@@ -9,7 +9,7 @@ const SmileyFaceMario = {
 
 }
 
-const smileyFacerSebi = {
+const SmileyFacerSebi = {
     X: 200,
     y: 100,
     speed: 2,
