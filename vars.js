@@ -1,3 +1,14 @@
+
+const smileyFacerSebi = {
+    X:200,
+    y:100,
+    speed:2,
+    ray:15,
+    sensX:1,
+    sensY:1,
+}
+
+
 let moveS1X = 300;
 let moveS1Y = 200;
 
