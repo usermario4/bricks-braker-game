@@ -22,7 +22,7 @@ function draw() {
     SmileyFacerSebi.x += SmileyFacerSebi.sensX * SmileyFacerSebi.speed;
     SmileyFacerSebi.y += SmileyFacerSebi.sensY * SmileyFacerSebi.speed;
 
-    smileyFacerSebi(SmileyFacerSebi.X, SmileyFacerSebi.Y, SmileyFacerSebi.ray * 2);
+    smileyFacerSebi(SmileyFacerSebi.x, SmileyFacerSebi.y, SmileyFacerSebi.ray * 2);
 
 }
 
