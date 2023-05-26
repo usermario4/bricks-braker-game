@@ -4,7 +4,7 @@ let bricks=[];
 
 
 
-const SmileyFaceMario = {
+let SmileyFaceMario = {
     x: 200,
     y: 100,
     speed: 2,
@@ -21,7 +21,7 @@ const SmileyFacerSebi = {
     sensX: 1,
     sensY: 1,
 }
-
+ let hit =false;
 let limitTop = 0;
 let limitBottom = 600;
 let limitLeft = 0;

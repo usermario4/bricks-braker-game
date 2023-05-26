@@ -6,7 +6,7 @@ function setup() {
 
 function draw() {
   background("#00F6FE")
-
+  
   SmileyFaceMario.sensX = sensSmileFaceCheckX(SmileyFaceMario.x, SmileyFaceMario.ray, SmileyFaceMario.sensX);
   SmileyFaceMario.sensY = sensSmileFaceCheckY(SmileyFaceMario.y, SmileyFaceMario.ray, SmileyFaceMario.sensY);
   SmileyFaceMario.sensY = bottomBarCheck(SmileyFaceMario);
@@ -25,7 +25,6 @@ function draw() {
   smileyFacerSebi(SmileyFacerSebi.x, SmileyFacerSebi.y, SmileyFacerSebi.ray * 2);
 
   bottomBar();
-  
   showBricks();
 
 }
