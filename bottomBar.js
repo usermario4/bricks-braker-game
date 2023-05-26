@@ -4,7 +4,10 @@ function bottomBarCheck(smileFace) {
       smileFace.y + smileFace.ray <= limitBottom &&
       smileFace.x + smileFace.ray > mouseX - Math.round(BottomBar.width / 2) &&
       smileFace.x - smileFace.ray < mouseX + Math.round(BottomBar.width / 2)
-    ) {console.log(smileFace.sensY)
+    ) {
+      smileFace.speed++
+      console.log(smileFace.speed)
+      smileFace.sensX=smileFace.sensX*(-1)
       return -1;
     }
     else

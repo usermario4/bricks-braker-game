@@ -5,8 +5,8 @@ let bricks=[];
 
 
 let SmileyFaceMario = {
-    x: 200,
-    y: 100,
+    x: 300,
+    y: 300,
     speed: 2,
     ray: 15,
     sensX: 1,
